@@ -21,6 +21,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: GUNSHOT-vst3
-          path: build/Gunshot_artefacts/Release/VST3/GUNSHOT.vst3
+          path: build/Gunshot_artefacts/Release/VST3/
           if-no-files-found: error
           compression-level: 0
